@@ -45,7 +45,7 @@
                 this.arr.pop();
             },
             editItems : function () {
-
+                 this.todos = this.arr;
             },
             clearAll : function () {
                 this.arr = [];
